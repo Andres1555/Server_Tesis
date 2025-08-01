@@ -45,7 +45,7 @@ export const postencargadocontroller = async (req, res) => {
       });
     }
 
-    // ⚠️ Ya no hacemos hash aquí
+    
     await EncargadoService.create({ ci, nombre, apellido, telefono, password, email, id_sede });
     res.status(201).json({ message: 'Encargado creado correctamente' });
   } catch (error) {
@@ -81,7 +81,7 @@ export const putencargadocontroller = async (req, res) => {
       });
     }
 
-    // ⚠️ No hasheamos aquí
+    
     await EncargadoService.update(ci, {
       nombre,
       apellido,

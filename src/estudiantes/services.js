@@ -1,5 +1,6 @@
 import { EstudianteRepository } from './repositories.js';
 
+
 export class EstudianteService {
   static async getAll() {
     try {

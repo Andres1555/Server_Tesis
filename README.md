@@ -1,22 +1,18 @@
 ## Pasos para correr el programa
 
-1- Clonar el repositorio:
-- https://github.com/jgarcia691/Server_Tesis
-
-2- Instalar dependencias
+1- Instalar dependencias
 - npm i
 
-3- Correr el main
+2- Correr el main
 - npm start
 
 ## Tecnologias usadas
 
-- sequelize
-- express
-- mysql
-- nodesjs
+- Express.js
+- SQLITE
+- Nodes.js
 
-## Programas nesecarios para correr el server
+## Programas nesecarios para correr el proyecto
 
-- Mysql workbench
-- Xampp
+-Nodes.js
+

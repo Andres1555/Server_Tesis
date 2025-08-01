@@ -1,5 +1,3 @@
-// controller.js
-
 import { CarreraTesisService } from './services.js';
 
 export const getCarreraTesisController = async (req, res) => {
